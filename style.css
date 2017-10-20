@@ -1,0 +1,46 @@
+body{
+     background-color: #cadae6;
+        font-family: Arial, serif;
+}
+.content{
+    position: relative;
+    width: 600px;  
+    margin: 0 auto;
+}
+.pages{
+	margin: 0;
+	float: right;
+}
+.pages{
+    float: right;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+.table_name{
+    width: 75%;
+}
+.previous{
+    position: absolute;
+    left: 0px;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.next{
+    position: absolute;
+    right: 0; 
+   
+}
+.previous:hover,.next:hover{
+    color: aliceblue;
+}
+
+.footer{
+    
+}

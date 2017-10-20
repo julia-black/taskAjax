@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 07. AJAX</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+    <body onload="call();">
+        <div class="content">
+            <h1>Heroes</h1>
+            <form method="get" id="form">
+                 <div class="header">
+                     <input type="text" id="input_text"> 
+			         <input type="submit" id="button_submit" value="GO"> 
+                </div>
+            </form>
+            <div class="pages">
+                Shown <span id="beginElem"> </span> - <span id="endElem"></span> of <span id="allCount"></span>
+		    </div> 
+            <table>
+                <thead>
+                <tr>
+                    <th class="name">Name</th>
+                    <th class="episodes">Episodes</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="footer">
+                <a class="previous" href="#" >← Previous</a>
+                <a class="next" href="#">Next →</a>
+            </div>
+        </div> 
+       <script src="ajax_script.js"></script>
+    </body>
+</html>
